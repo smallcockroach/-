@@ -1,37 +1,121 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/smallcockroach/-/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>证书信息</title>
+<script src="Scripts/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="Scripts/qrcode.min.js" type="text/javascript"></script>
+<link href="PrintPlugin/Styles/screen.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript">
+        function CreateQRCode(element, data, w, h) {
+            var qrcode = new QRCode(element, {                
+                text: data,
+                width: w,
+                height: h,
+                colorLight: "rgba(0, 0, 0, 0)",
+                correctLevel: QRCode.CorrectLevel.L
+            });
+        }
+</script>
+</head>
+<body style="background-color:#daecf6;">
+<!----模板内容开始---->
 
-```markdown
-Syntax highlighted code block
+<table width="500" border="1" align="center" cellpadding="8" bgcolor="#FFFFFF" bordercolor="#999999" style="font-family: Microsoft YaHei, Verdana, Arial, Helvetica, sans-serif; font-size:14px;">
+  
+  
+  <tr>
+    <td width="200" align="right">照片：</td>
+    <td><div style="width:118px; height:146px; overflow:hidden;"><img src="" width="118" /></div> </td>
+  </tr>
+  
+  
+  <tr>
+    <td width="200" align="right">姓名：</td>
+    <td>王国伟</td>
+  </tr>
+  <tr>
+    <td align="right">性别：</td>
+    <td>男</td>
+  </tr>
+  <tr>
+    <td align="right">出生日期：</td>
+	
+	
+	<td>1995 年 03 月 10 日 </td>
+	
+  </tr>
+  <tr>
+    <td align="right">证书编号：</td>
+    <td>1764003007500270</td>
+  </tr>
+  <tr>
+    <td align="right">身份证号：</td>
+    <td>612326199508183159</td>
+  </tr>
+  <tr>
+    <td align="right">职业（工种）及等级：</td>
+    <td>游泳五级  
+	</td>
+  </tr>
+  <tr>
+    <td align="right">理论知识考试成绩：</td>
+    <td>
+	75.0 
+	
+	
+	
+	
+	
+	</td>
+  </tr>
+  <tr>
+    <td align="right">操作技能考核成绩：</td>
+    <td>
+	63.0 
+	
+	
+	
+	
+	
+	</td>
+  </tr>
+  
+  
+  
+  <tr>
+    <td align="right">评定成绩：</td>
+    <td>合格</td>
+  </tr>
+  
+  <tr>
+    <td align="right">颁证日期：</td>
+    <td >2017-07-10</td>
+  </tr>
+  <tr>
+    <td align="right">发证单位：</td>
+    <td>国家体育总局职业技能鉴定指导中心</td>
+  </tr>
+  <tr>
+    <td align="right">证书流水码所属号段：</td>
+    <td>
+			
+	
+	        
+			      <b>46615001</b> - <b>46627000 </b> <br>
+			
+	&nbsp;
+	</td>
+  </tr>
+</table>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/smallcockroach/-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!----模板内容结束---->
+</body>
+</html>
